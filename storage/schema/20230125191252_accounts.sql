@@ -2,8 +2,8 @@
 -- +goose StatementBegin
 create table `accounts` (
     `id` bigint unsigned primary key,
-    `number` bigint unsigned,
-    `name` varchar(64)
+    `number` bigint unsigned not null,
+    `name` varchar(64) not null
 );
 -- +goose StatementEnd
 
