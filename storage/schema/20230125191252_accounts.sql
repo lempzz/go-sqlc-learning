@@ -1,7 +1,7 @@
 -- +goose Up
 -- +goose StatementBegin
 create table `accounts` (
-    `id` bigint unsigned primary key,
+    `id` bigint unsigned primary key auto_increment,
     `number` bigint unsigned not null,
     `name` varchar(64) not null
 );
