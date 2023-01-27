@@ -25,6 +25,7 @@ require (
 	github.com/jackc/pgtype v1.13.0 // indirect
 	github.com/jackc/pgx/v4 v4.17.2 // indirect
 	github.com/joeshaw/multierror v0.0.0-20140124173710-69b34d4ec901 // indirect
+	github.com/joho/godotenv v1.4.0 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/klauspost/compress v1.15.15 // indirect
 	github.com/mattn/go-isatty v0.0.17 // indirect
