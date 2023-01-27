@@ -1,0 +1,6 @@
+version: "1"
+packages:
+  - path: "./storage/dbs/"
+    engine: "mysql"
+    schema: "./storage/schema/"
+    queries: "./storage/query/"
