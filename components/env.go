@@ -7,8 +7,8 @@ import (
 )
 
 func init() {
-	if _, err := os.Stat("../.env"); err == nil {
-		if err := env.Load("../.env"); err != nil {
+	if _, err := os.Stat("./.env"); err == nil {
+		if err := env.Load("./.env"); err != nil {
 			panic(err.Error())
 		}
 	}
